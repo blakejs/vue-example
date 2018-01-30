@@ -6,7 +6,7 @@
                     <img src="statics/person.png">
                 </q-card-media>
                 <q-item-main>
-                    <q-item-tile id="landingabout">Front-end Web Developer.<br>Interface Designer.</q-item-tile>
+                    <q-item-tile id="landingabout">Example Message</q-item-tile>
                 </q-item-main>
             </q-item>
             <q-card-actions align="center">

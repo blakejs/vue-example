@@ -3,9 +3,10 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-function load (component) {
+function load(component) {
   // '@' is aliased to src/components
-  return () => import(`@/${component}.vue`)
+  return () =>
+    import (`@/${component}.vue`)
 }
 
 export default new VueRouter({
@@ -21,10 +22,15 @@ export default new VueRouter({
    * build publicPath back to '' so Cordova builds work again.
    */
 
-  routes: [
-    { path: '/', component: load('Index') },
+  routes: [{
+      path: '/',
+      component: load('Index')
+    },
 
     // Always leave this last one
-    { path: '*', component: load('Error404') } // Not found
+    {
+      path: '*',
+      component: load('Error404')
+    } // Not found
   ]
 })

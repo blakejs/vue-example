@@ -15,8 +15,7 @@ export default {
     data() {
         return {
             gallery: [
-                'statics/sastone.png',
-                'statics/port.png',
+
             ]
         }
     }

@@ -2,12 +2,12 @@
     <div>
         <q-card>
             <q-card-title id="card-title">
-                <q-icon name="fa-envelope" /> Contact Me
+                <q-icon name="fa-envelope" /> Contact
                 <q-icon name="fa-envelope" />
             </q-card-title>
             <q-card-main>
                 <div id="contact">
-                    <form action="https://formspree.io/mail@blakejs.com" method="POST">
+                    <form action="https://formspree.io/" method="POST">
                         </br>
                         <q-input v-model="email" name="Email" type="email" placeholder="Email" @blur="$v.email.$touch" @keyup.enter="submit" :error="$v.email.$error" />
                         </br>
@@ -30,7 +30,7 @@ export default {
     data() {
         return {
             email: '',
-            message: 'Hello, I would like to know more about your web development services.'
+            message: '',
         }
     },
     validations: {

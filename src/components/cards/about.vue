@@ -4,16 +4,13 @@
             <q-card-media overlay-position="bottom">
                 <img src="statics/about.jpg">
                 <q-card-title>
-                    <q-icon name="fa-smile-o" /> About Me
+                    <q-icon name="fa-smile-o" /> About
                     <q-icon name="fa-smile-o" />
                 </q-card-title>
             </q-card-media>
             <q-card-separator/>
             <q-card-main>
-                I am a Website Developer based in
-                <b>Atlanta, Georgia.</b><br> I am experienced with core, foundational web technologies. 
-                <br>
-                I started out building wordpress sites and have since then mastered CMS development.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 <br><br>
                 <q-card-separator/>
                 <br>
@@ -43,9 +40,7 @@
                 </a>
                 <br><br>
                 <q-card-separator/>
-                <br><br> More recently, I have been focusing on the power of JavaScript Applications. 
-                <br>I can design and build highly interactive, stable, websites with unique and creative designs. 
-                <br>Responsive, fast, mobile friendly sites are an important focus of mine.
+                <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 <br><br>
                 <q-card-separator/>
                 <br><br> This website is powered by:
@@ -58,10 +53,10 @@
 
 <script>
 export default {
-    data() {
-        return {}
-    }
-}
+  data() {
+    return {};
+  }
+};
 </script>
 
 <style>
