@@ -3,15 +3,15 @@
         <q-card id="landing">
             <q-item>
                 <q-card-media id="blake">
-                    <img src="statics/person.png">
+                    <img src="statics/profile.svg">
                 </q-card-media>
                 <q-item-main>
-                    <q-item-tile id="landingabout">Example Message</q-item-tile>
+                    <q-item-tile id="landingabout">What you do</q-item-tile>
                 </q-item-main>
             </q-item>
             <q-card-actions align="center">
                 <a v-scroll-to="'#contact'">
-                    <q-btn push color="secondary" id="landingaction">Get in touch</q-btn>
+                    <q-btn push color="secondary" id="landingaction">CTA</q-btn>
                 </a>
             </q-card-actions>
         </q-card>

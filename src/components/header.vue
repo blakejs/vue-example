@@ -6,9 +6,9 @@
                 </q-btn>
             </router-link> -->
         <q-toolbar-title align="left">
-            Blake Sutton
+            Portfolio
             <span slot="subtitle">
-                Web Services
+                Services
             </span>
         </q-toolbar-title>
         <a v-scroll-to="'#about'">
@@ -16,6 +16,9 @@
         </a>
         <a v-scroll-to="'#work'">
             <q-btn flat color="white">Work</q-btn>
+        </a>
+        <a v-scroll-to="'#contact'">
+            <q-btn flat color="white">Contact</q-btn>
         </a>
     </q-toolbar>
 </template>

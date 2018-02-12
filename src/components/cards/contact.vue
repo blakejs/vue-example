@@ -8,11 +8,11 @@
             <q-card-main>
                 <div id="contact">
                     <form action="https://formspree.io/" method="POST">
-                        </br>
+                        <br>
                         <q-input v-model="email" name="Email" type="email" placeholder="Email" @blur="$v.email.$touch" @keyup.enter="submit" :error="$v.email.$error" />
-                        </br>
+                        <br>
                         <q-input v-model="message" name="Message" type="textarea" placeholder="Message" />
-                        </br>
+                        <br>
                         <input type="text" name="_gotcha" style="display:none" />
                         <q-btn color="primary" @click="submit">Send</q-btn>
                     </form>

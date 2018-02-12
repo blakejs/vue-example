@@ -15,7 +15,9 @@ export default {
     data() {
         return {
             gallery: [
-
+                "../statics/example.jpg",
+                "../statics/example.jpg",
+                "../statics/example.jpg",
             ]
         }
     }

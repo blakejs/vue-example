@@ -1,20 +1,20 @@
 <template>
     <q-toolbar slot="footer" class="shadow-up-1">
-        <h6>©blakejs.com</h6>
+        <h6>©Your Site</h6>
         <div id="footerIcons">
-            <a href="https://www.github.com/zutton">
+            <a>
                 <q-btn id="flaticons" flat color="white">
                     <q-icon name="ion-social-octocat" /></q-btn>
             </a>
-            <a href="https://www.twitter.com/zuttton">
+            <a>
                 <q-btn id="flaticons" flat color="white">
                     <q-icon name="fa-twitter" /></q-btn>
             </a>
-            <a href="https://plus.google.com/u/0/107741953018378199851">
+            <a>
                 <q-btn id="flaticons" flat color="white">
                     <q-icon name="fa-google-plus" /></q-btn>
             </a>
-            <a href="https://www.linkedin.com/in/blake-sutton-ba48b814b">
+            <a>
                 <q-btn id="flaticons" flat color="white">
                     <q-icon name="fa-linkedin" /></q-btn>
             </a>
